@@ -12,6 +12,8 @@
 
 `summary(stock)` summarises the stock.
 
+`low_stock(stock)` returns the SKUs whose quantity is less than or equal to their reorder level, sorted by SKU (Python's default string ordering), so buyers know what to reorder.
+
 ## Snapshots
 
 `save_snapshot` and `load_snapshot` write and read stock levels as JSON.
