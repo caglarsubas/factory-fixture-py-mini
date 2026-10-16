@@ -10,7 +10,10 @@
 
 ## Reports
 
-`summary(stock)` summarises the stock.
+`summary(stock)` summarises the stock. It returns a dict with two keys:
+
+- `skus`: the number of distinct SKUs (entries) held in the stock.
+- `units`: the total (sum) of item quantities across all SKUs.
 
 ## Snapshots
 
