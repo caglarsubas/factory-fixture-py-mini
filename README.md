@@ -8,3 +8,4 @@ uv run --frozen mypy
 uv run --frozen ruff check
 uv run --frozen pytest -q
 ```
+Drift drill.
